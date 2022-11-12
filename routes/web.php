@@ -25,3 +25,7 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/', function () {
     return view('prueba');
 });
+Route::get('/', function () {
+    return view('categorias');
+});
+
