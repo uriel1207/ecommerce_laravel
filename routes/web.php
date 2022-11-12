@@ -25,4 +25,11 @@ Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::get('/', function () {
     return view('prueba');
 });
-Route::get('categorias', [AuthController::class, 'categorias'])->name('categorias');
+Route::get('/', function () {
+    return view('categorias');
+});
+
+Route::get('categorias', function () {
+    return view('categorias');
+});
+
