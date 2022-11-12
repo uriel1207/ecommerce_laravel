@@ -21,7 +21,7 @@
         }
 
         #conte1{
-            background-color: rgb(147, 239, 152);
+            background-color: rgb(147, 197, 239);
         }
         #conten2{
             background-color: rgb(147, 239, 152);
